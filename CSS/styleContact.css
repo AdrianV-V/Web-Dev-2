@@ -1,0 +1,78 @@
+.contact {
+    padding: 100px 100px;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 20px;
+    color: aqua;
+    margin-bottom: 32px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 19px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.contact-info {
+    margin-top: 42px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-size: 23px;
+    color: aqua;
+    margin-bottom: 19px;
+}
+
+.contact-info p {
+    font-size: 17px;
+    color:aqua;
+    margin-bottom: 14px;
+}
+
+.contact-info i {
+    color: aqua;
+    margin-right: 9px;
+}
+
+.social-icons {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.social-icons a {
+    color: aqua;
+    font-size: 22px;
+    transition: color 0.4s ease;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
