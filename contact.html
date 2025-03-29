@@ -20,6 +20,7 @@
             <a href="demo">Demo</a>
             <a href="report">Report</a>
         </nav>
+        <div class="hamburger" onclick="toggleNav()">&#9776;</div>
     </header>
 
     <section id="contact" class="contact">
@@ -101,6 +102,11 @@
               </use>
           </g>
       </svg>
-
+      <script>
+        function toggleNav(){
+            const nav = document.querySelector('nav')
+            nav.classList.toggle('active')
+        }
+       </script>
 </body>
 </html>

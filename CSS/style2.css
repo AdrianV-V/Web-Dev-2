@@ -74,7 +74,7 @@ nav a.active{
         border-top: 4px solid aqua;
         border-bottom-left-radius: 2.5rem;
         padding: 1.5rem solid;
-        background-color: rgb(199, 199, 199);
+        background-color: rgb(255, 255, 255);
         border-top: 0.2rem solid rgba(0, 0, 0, 1);
     }
 

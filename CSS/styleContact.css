@@ -76,3 +76,17 @@ svg {
     width: 100%;
     height: auto;
 }
+
+.hamburger{
+    display: none;
+    font-size: 4rem;
+    color: aqua;
+    cursor: pointer;
+    z-index: 101;
+}
+
+@media(max-width:950px){
+    .hamburger{
+        display: block;
+    }
+}
