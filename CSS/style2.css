@@ -60,7 +60,7 @@ nav a{
 nav a:hover,
 nav a.active{
     color: aqua;
-    border-bottom: 4px solid color(aqua);
+    border-bottom: 4px solid aqua;
 }
 
 @media( max-width:950px){
@@ -73,9 +73,9 @@ nav a.active{
         border-bottom: 4px solid aqua;
         border-top: 4px solid aqua;
         border-bottom-left-radius: 2.5rem;
-        padding: 1.5rem solid;
-        background-color: rgb(255, 255, 255);
-        border-top: 0.2rem solid rgba(0, 0, 0, 1);
+        padding: 1.5rem ;
+        background-color: rgb(21, 94, 147);
+        border-top: 0.2rem solid rgb(24, 198, 201);
     }
 
     nav.active{
@@ -103,7 +103,7 @@ section{
 .home{
     display: flex;
     justify-content: center;
-    align-items: 75%;
+    align-items: center;
     background-color: transparent;
     gap: 10rem;
 }
@@ -135,7 +135,7 @@ span{
 .home-img img{
     position: relative;
     width: 50vw;
-    box-shadow: 0 0 0 solid aqua;
+
     border-radius: 30%;
     transition: 0.3s linear;
     cursor: pointer;
@@ -165,7 +165,7 @@ span{
     color:azure;
     transform: scale(1.1)translateY(-4px);
     background-color: aqua;
-    box-shadow: 25px azure;
+
 }
 
 .btn{
@@ -185,7 +185,7 @@ span{
     transform: scale(1.1)translateY(-4px);
     background-color: aqua;
     color: azure;
-    box-shadow: 25px azure;
+    
 
 }
 
