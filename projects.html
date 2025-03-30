@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="background/style.css">
-    <link rel="stylesheet" href="background/style2.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <link rel="stylesheet" href="CSS/styleProjects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Portofolio</title>
-    
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
+    <div class="grid-container">
+        <div class="project">
+            <img src="Projects Img/snackman.jpeg" alt="Snack Man">
+            <h3>Snack Man</h3>
+            <p>I created a Pacman-inspired game built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <img src="Projects Img/car.jpg" alt="Car Sales Software">
+            <h3>Sovereign Car Sales Software</h3>
+            <p>A stock system and website for a car company using Java and web technologies.</p>
+        </div>
+        <div class="project">
+            <img src="Projects Img/aliex.png" alt="AliExpress">
+            <h3>AliExpress Front-end Development</h3>
+            <p>AliExpresse's website development using Liquid, PHP, HTML, and SCSS.</p>
+        </div>
+        <div class="project">
+            <img src="Projects Img/aliex.png" alt="Apple Website Development">
+            <h3>Apple Website Development</h3>
+            <p>Created Apple's website using HTML, CSS, PHP, and SQL.</p>
+        </div>
+    </div>
     <header>
         <a href="#" class="logo">Adrian</a>
 
@@ -20,12 +47,9 @@
             <a href="demo.html">Demo</a>
             <a href="report.html">Report</a>
         </nav>
-        <style>
-            html{
-                scroll-behavior: smooth;
-            }
-        </style>
+
         <div class="hamburger" onclick="toggleNav()">&#9776;</div>
+</head>
     </header>
 
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -78,11 +102,13 @@ s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.
         </use>
     </g>
 </svg>
-</body>
+
 <script>
-function toggleNav(){
-  const nav = document.querySelector('nav')
-  nav.classList.toggle('active')
-}
-</script>
+    function toggleNav(){
+      const nav = document.querySelector('nav')
+      nav.classList.toggle('active')
+    }
+    </script>
+</body>
+
 </html>
